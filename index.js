@@ -7,9 +7,9 @@ const cors = require("cors");
 const mysql = require('mysql')
 
 const db = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: 'password',
+  host: '',
+  user: '',
+  password: '',
   database: 'movie_reviews'
 
 })
